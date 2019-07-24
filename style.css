@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-left: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.userslist {
+    display: flex;
+    flex-direction: column;    
+}
+
+.user {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0;
+}
+  
+a {
+    padding: 30px 15px;
+    color: #000;
+    text-decoration: none;
+}
